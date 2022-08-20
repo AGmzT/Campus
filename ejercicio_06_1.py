@@ -4,10 +4,6 @@
 #Velocidad, Cilindrada
 #Por último, tendrás que crear un objeto de la clase Coche y mostrarlo por consola.
 
-from tokenize import PseudoExtras
-from turtle import pu
-
-
 class Vehiculo():
     
     _color = None
