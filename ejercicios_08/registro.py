@@ -36,4 +36,3 @@ class registro():
         r = open(self._archivo, 'a')
         r.writelines(linea)
         r.close()
-

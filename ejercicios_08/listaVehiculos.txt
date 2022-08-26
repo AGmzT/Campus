@@ -1,0 +1,5 @@
+Marca               Modelo              Color               Precio
+Opel                Corsa               Negro               65000               
+Opel                Grandland X         Azul                125000
+Opel                Crossland           Rojo                90000               
+Volkswagen          Taos                Amarillo            45000               
