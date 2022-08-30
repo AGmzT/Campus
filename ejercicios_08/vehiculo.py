@@ -1,5 +1,3 @@
-from datetime import datetime as dt
-
 class vehiculo():
     """Representacion de un vehiculo, con los atributos de marca, modelo, color y precios """
     

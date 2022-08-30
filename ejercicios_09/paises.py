@@ -14,7 +14,4 @@ def mostrarPaises():
     return paises
 
 
-paises = mostrarPaises()
-print(paises, type(paises))
-
 
