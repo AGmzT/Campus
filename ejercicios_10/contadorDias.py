@@ -3,7 +3,7 @@ from datetime import datetime as dt
 from datetime import timedelta as td
 from tkinter.font import Font
 
-class contador(tk.Tk):
+class Contador(tk.Tk):
     def __init__(self):
         super().__init__()
         
@@ -34,5 +34,5 @@ class contador(tk.Tk):
     
 
 if __name__ == '__main__':
-    cont = contador()
+    cont = Contador()
     cont.mainloop()

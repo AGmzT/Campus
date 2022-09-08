@@ -4,7 +4,7 @@ from tkinter import ttk
 from tkinter.messagebox import showinfo
 from msilib.schema import RadioButton
 
-class selector(tk.Tk):
+class Selector(tk.Tk):
     def __init__(self):
         super().__init__()
     
@@ -53,5 +53,5 @@ class selector(tk.Tk):
         button2.grid(column= 0, row= 5, padx= 5, pady= 5)
         
 if __name__ == '__main__':
-    selector = selector()
+    selector = Selector()
     selector.mainloop()
