@@ -241,7 +241,7 @@ class Alumnos():
         op = ''
         """loop que continua mostrando el menu hasta que
             se elige salir"""
-        while op != 6:
+        while op != '6':
             print('\n\
                 Que desea hacer?\n\
                 Ver alumnos:\t\t1\n\
@@ -251,7 +251,6 @@ class Alumnos():
                 Quitar alumno:\t\t5\n\
                 Salir:\t\t\t6')
             op =input()
-            
             match op:
                 case '1':
                     """muestra todos los registros"""
